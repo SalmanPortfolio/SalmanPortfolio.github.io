@@ -116,6 +116,9 @@ h1, h2, h3 {
     {% include 3rd_article.html %}
     {% include 4th_article.html %}
     {% include 5th_article.html %}
+    {% include 6th_article.html %}
+    {% include 7th_article.html %}
+    {% include 8th_article.html %}
   </div>
 
   <!-- 2nd Semester -->
