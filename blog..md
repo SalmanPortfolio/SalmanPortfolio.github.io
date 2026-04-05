@@ -42,6 +42,15 @@ permalink: /blog/
 
 <h1>📝 My Blog</h1>
 
+<!-- ✅ Tag Filter -->
+<select id="tagFilter" onchange="filterPosts()">
+  <option value="all">All</option>
+  <option value="journey">Journey</option>
+  <option value="engineering">Engineering</option>
+</select>
+
+<br><br>
+
 {% for post in site.posts %}
 <div class="post-card">
 
@@ -61,3 +70,20 @@ permalink: /blog/
 {% endfor %}
 
 </div>
+
+<script>
+function filterPosts(){
+  let tag = document.getElementById("tagFilter").value.toLowerCase();
+  let posts = document.querySelectorAll(".post-card");
+
+  posts.forEach(post => {
+    // check if any tag matches
+    let tags = Array.from(post.querySelectorAll(".tag")).map(t => t.innerText.toLowerCase());
+    if(tag === "all" || tags.includes(tag)){
+      post.style.display = "block";
+    } else {
+      post.style.display = "none";
+    }
+  });
+}
+</script>
