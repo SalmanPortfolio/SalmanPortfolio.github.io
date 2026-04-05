@@ -16,14 +16,14 @@ I am **Salman Zahoor**, son of **Zahoor Ahmad**, Computer Engineering student.
 **The Educators School, Kassowal Campus**  
 <button onclick="toggle('matric')">View Result</button>
 <div id="matric" style="display:none; margin-top:10px;">
-  <img src="/assets/images/matric.jpg" width="300" style="border:2px solid #1abc9c; border-radius:5px;">
+  <img src="/assets/images/matric.jpg">
 </div>
 
 ### F.Sc Pre-Medical
 **Superior Group of Colleges, Mian Channu Campus**  
 <button onclick="toggle('fsc')">View Result</button>
 <div id="fsc" style="display:none; margin-top:10px;">
-  <img src="/assets/images/fsc.jpg" width="300" style="border:2px solid #3498db; border-radius:5px;">
+  <img src="/assets/images/fsc.jpg">
 </div>
 
 ### University
