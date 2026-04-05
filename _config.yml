@@ -4,7 +4,6 @@ url: "https://salmanportfolio.github.io"
 baseurl: ""
 
 theme: null  # Using your forked Contrast theme
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
