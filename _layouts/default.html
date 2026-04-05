@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang }}">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <a href="/" class="logo">{{ site.title }}</a>
+      <div class="nav-links">
+        <a href="/about/">About</a>
+        <a href="/journey/">Journey</a>
+        <a href="/contact/">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-{% include head.html %}
+  <main>
+    {{ content }}
+  </main>
 
-<header class="hover smooth">
-  {% unless site.show_minimal and site.navigation and site.external %}
-    <h1 {% if site.navigation and site.external %}class="full"{% endif %}><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></h1>
-  {% endunless %}
-  {% include menu.html menu=site.navigation %}
-  {% include menu.html menu=site.external %}
-</header>
-
-{{ content }}
-
-{%- if site.footer -%}
-<footer class="hover">
-  <div>{{ site.description }}</div>
-  {% include menu.html menu=site.footer %}
-</footer>
-{%- endif -%}
-
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} Salman Zahoor | All Rights Reserved</p>
+  </footer>
+</body>
 </html>
