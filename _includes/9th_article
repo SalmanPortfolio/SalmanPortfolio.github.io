@@ -1,0 +1,36 @@
+<!-- 9th Article -->
+<div class="inner-card">
+  <h4>📄 9th Article</h4>
+  <h5>Breaks, Recovery, and Semester Continuation</h5>
+
+  <!-- Toggle Button -->
+  <button class="read-btn" onclick="toggleArticle('article9')">Read More</button>
+
+  <div id="article9" style="display:none; margin-top:15px;">
+    <h5>1. Short Break and Home Recovery</h5>
+    <p>
+      After the final exams, we had a one-week break. I returned home, which allowed me to rest and recover mentally and physically. Spending time with family helped ease stress accumulated over the semester. My father’s health improved slightly, which also lifted a personal burden from my shoulders.
+    </p>
+
+    <h5>2. Reflection on Academic Performance</h5>
+    <p>
+      During the break, I reflected on my semester performance. Although my CGPA was slightly lower than expected due to past Meds challenges, I was content with passing the courses. The experience reinforced the importance of consistent effort, managing time effectively, and maintaining a balance between personal and academic life.
+    </p>
+
+    <h5>3. Return to University</h5>
+    <p>
+      As the break ended, I returned to university for the next semester. I felt more prepared and motivated to tackle the upcoming courses. The lessons from the previous semester — perseverance, adaptation, and self-care — became my guiding principles as I planned my approach for the new academic challenges ahead.
+    </p>
+  </div>
+</div>
+
+<script>
+function toggleArticle(id){
+  var x = document.getElementById(id);
+  if(x.style.display === "none" || x.style.display === ""){
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
