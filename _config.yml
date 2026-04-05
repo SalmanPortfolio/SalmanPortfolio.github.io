@@ -1,16 +1,50 @@
-title: "Salman Zahoor Portfolio"
-description: "Computer Engineering Student | Pro Portfolio"
-url: "https://salmanportfolio.github.io"
-baseurl: ""
+title: "Salman Zahoor | Portfolio"
+description: "Computer Engineering Student | Developer Portfolio | Projects & Journey"
+url: "https://salmanzahoor.github.io"   # ⚠️ change if needed
+baseurl: "" 
 
-theme: null  # Using your forked Contrast theme
+# Theme (Custom / Forked)
+theme: null
+
+# Author Info (Important for SEO)
+author:
+  name: "Salman Zahoor"
+  email: "salmanzahoor.uet@example.com"
+
+# Plugins (GitHub Pages supported)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
 
+# Markdown Settings
 markdown: kramdown
+highlighter: rouge
+
+# Permalink Style
 permalink: /:title/
+
+# Site Features
 show_excerpts: true
+
+# Custom Settings
 dark_mode: true
+
+# Social Links (optional but recommended)
+social_links:
+  github: salmanzahoor
+  linkedin: your-linkedin-username
+
+# Defaults (Better layout control)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude unnecessary files
+exclude:
+  - README.md
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
