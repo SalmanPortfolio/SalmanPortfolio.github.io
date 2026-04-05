@@ -14,7 +14,7 @@ permalink: /journey/
 
 <div id="a1" class="article-box">
   <h3>Admission</h3>
-  <p>👉 Paste your article here later.</p>
+  <p>👉 Paste your first article content here.</p>
 </div>
 
 <div id="a2" class="article-box">
@@ -28,13 +28,12 @@ permalink: /journey/
 </div>
 
 <style>
-body{background:#121212; color:#eee;}
 .folders button{
-  background:#3498db; color:white; border:none; padding:12px 18px; border-radius:6px;
-  margin:5px; cursor:pointer; transition:0.3s;
+  background:#3498db; color:#fff; border:none; padding:12px 18px; border-radius:6px; margin:5px; cursor:pointer; transition:0.3s;
 }
-.folders button:hover{ background:#2980b9; transform: scale(1.05);}
-.article-box{ display:none; border:1px solid #555; padding:15px; margin-top:10px; border-radius:5px; background:#1e1e1e; color:#eee;}
+.folders button:hover{background:#2980b9; transform:scale(1.05);}
+.article-box{display:none; border:1px solid #555; padding:15px; margin-top:10px; border-radius:5px; background:#1e1e1e; color:#eee;}
+@media screen and (max-width:480px){.folders button{width:100%; margin:5px 0;}}
 </style>
 
 <script>
