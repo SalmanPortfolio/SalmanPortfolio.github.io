@@ -6,11 +6,8 @@ permalink: /contact/
 
 # Contact Me
 
-📍 Address:  
-8/14L Kassowal, Tehsil Chichawatni, District Sahiwal  
-
-📞 Phone / WhatsApp:  
-03024927525  
-
-📧 Email:  
-<a href="mailto:salmanzahoor.uet@gmail.com">salmanzahoor.uetgmail.com</a>
+<div style="border:1px solid #ccc; padding:15px; border-radius:5px; max-width:400px;">
+<p>📍 Address: 8/14L Kassowal, Tehsil Chichawatni, District Sahiwal</p>
+<p>📞 Phone / WhatsApp: <a href="https://wa.me/03024927525" target="_blank">03024927525</a></p>
+<p>📧 Email: <a href="mailto:salmanzahoor.uet@gmail.com">salmanzahoor.uet@gmail.com</a></p>
+</div>
