@@ -6,52 +6,35 @@ permalink: /about/
 
 # About Me
 
-I am **Salman Zahoor**.  
-My father’s name is **Zahoor Ahmad**.
+I am **Salman Zahoor**, son of **Zahoor Ahmad**.  
+Computer Engineering Student with a passion for coding and design.
 
 ---
 
-## 🎓 Education
+## Education
 
 ### Matric
-I have done my Matric from **The Educators School Kassowal Campus**.
-
-👉 Click to view result:
+**The Educators School, Kassowal Campus**  
 
 <button onclick="toggle('matric')">Show Matric Result</button>
-
-<div id="matric" style="display:none;">
-  <img src="/assets/images/matric.jpg" width="300">
+<div id="matric" style="display:none; margin-top:10px;">
+  <img src="/assets/images/matric.jpg" width="300" style="border:2px solid #333; border-radius:5px;">
 </div>
-
----
 
 ### F.Sc (Pre-Medical)
-I have completed my F.Sc from **The Superior Group of Colleges Mian Channu Campus**.
-
-👉 Click to view result:
+**Superior Group of Colleges, Mian Channu Campus**  
 
 <button onclick="toggle('fsc')">Show F.Sc Result</button>
-
-<div id="fsc" style="display:none;">
-  <img src="/assets/images/fsc.jpg" width="300">
+<div id="fsc" style="display:none; margin-top:10px;">
+  <img src="/assets/images/fsc.jpg" width="300" style="border:2px solid #333; border-radius:5px;">
 </div>
 
----
-
 ### University
-I am currently studying **Computer Engineering** from  
-**University of Engineering and Technology Lahore, Faisalabad Campus**.
-
----
+**UET Lahore, Faisalabad Campus** – Computer Engineering
 
 <script>
 function toggle(id){
   var x = document.getElementById(id);
-  if(x.style.display === "none"){
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+  x.style.display = x.style.display === "none" ? "block" : "none";
 }
 </script>
