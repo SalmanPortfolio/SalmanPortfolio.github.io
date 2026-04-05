@@ -3,14 +3,46 @@ layout: default
 title: "Home"
 ---
 
-<h1>👋 Hi, I'm Salman Zahoor</h1>
+<div style="text-align:center; padding:50px; font-family: 'Helvetica', sans-serif;">
 
-<p>🎓 Computer Engineering Student</p>
-<p>🚀 Welcome to my portfolio website</p>
+  <!-- Profile Picture -->
+  <img src="/assets/images/profile.jpg" alt="Salman Zahoor" width="180" 
+       style="border-radius:50%; border:4px solid #1abc9c; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
 
-<h2>Explore</h2>
-<ul>
-  <li><a href="/about/">About Me</a></li>
-  <li><a href="/journey/">My Journey</a></li>
-  <li><a href="/contact/">Contact</a></li>
-</ul>
+  <!-- Intro Text -->
+  <h1 style="margin-top:20px; font-size:2.2em;">Hi, I'm <strong>Salman Zahoor</strong></h1>
+  <p style="font-size:1.2em; color:#555;">🎓 Computer Engineering Student | 🚀 Aspiring Developer</p>
+
+  <!-- Buttons -->
+  <div style="margin-top:30px;">
+    <a href="/about/" 
+       style="padding:12px 25px; background:#1abc9c; color:white; text-decoration:none; border-radius:5px; margin:5px; transition:0.3s;">
+       About Me
+    </a>
+    <a href="/journey/" 
+       style="padding:12px 25px; background:#3498db; color:white; text-decoration:none; border-radius:5px; margin:5px; transition:0.3s;">
+       My Journey
+    </a>
+    <a href="/contact/" 
+       style="padding:12px 25px; background:#e74c3c; color:white; text-decoration:none; border-radius:5px; margin:5px; transition:0.3s;">
+       Contact
+    </a>
+  </div>
+
+  <!-- Optional Welcome Animation -->
+  <p id="welcome" style="margin-top:40px; font-style:italic; color:#777;">Welcome to my portfolio!</p>
+</div>
+
+<script>
+  // Fade in welcome text
+  document.addEventListener("DOMContentLoaded", function() {
+    const el = document.getElementById('welcome');
+    el.style.opacity = 0;
+    let op = 0;
+    const fadeIn = setInterval(function() {
+      if(op >= 1){ clearInterval(fadeIn); }
+      el.style.opacity = op;
+      op += 0.02;
+    }, 20);
+  });
+</script>
