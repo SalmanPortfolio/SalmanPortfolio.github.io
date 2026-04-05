@@ -3,46 +3,53 @@ layout: default
 title: "Home"
 ---
 
-<div style="text-align:center; padding:50px; font-family: 'Helvetica', sans-serif;">
+<div style="text-align:center; padding:60px; font-family:'Helvetica', sans-serif; color:#eee; background:#121212; min-height:100vh;">
 
-  <!-- Profile Picture -->
-  <img src="/assets/images/profile.jpg" alt="Salman Zahoor" width="180" 
-       style="border-radius:50%; border:4px solid #1abc9c; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+  <!-- Profile -->
+  <img src="/assets/images/profile.jpg" alt="Salman Zahoor" width="180"
+       style="border-radius:50%; border:4px solid #1abc9c; box-shadow: 0 0 20px #1abc9c;">
 
-  <!-- Intro Text -->
-  <h1 style="margin-top:20px; font-size:2.2em;">Hi, I'm <strong>Salman Zahoor</strong></h1>
-  <p style="font-size:1.2em; color:#555;">🎓 Computer Engineering Student | 🚀 Aspiring Developer</p>
+  <h1 style="margin-top:25px; font-size:2.5em;">Hi, I'm <strong>Salman Zahoor</strong></h1>
+  <p style="font-size:1.2em; color:#aaa;">🎓 Computer Engineering Student | 🚀 Aspiring Developer</p>
 
   <!-- Buttons -->
-  <div style="margin-top:30px;">
-    <a href="/about/" 
-       style="padding:12px 25px; background:#1abc9c; color:white; text-decoration:none; border-radius:5px; margin:5px; transition:0.3s;">
-       About Me
-    </a>
-    <a href="/journey/" 
-       style="padding:12px 25px; background:#3498db; color:white; text-decoration:none; border-radius:5px; margin:5px; transition:0.3s;">
-       My Journey
-    </a>
-    <a href="/contact/" 
-       style="padding:12px 25px; background:#e74c3c; color:white; text-decoration:none; border-radius:5px; margin:5px; transition:0.3s;">
-       Contact
-    </a>
+  <div style="margin-top:35px;">
+    <a href="/about/" class="btn btn-green">About Me</a>
+    <a href="/journey/" class="btn btn-blue">My Journey</a>
+    <a href="/contact/" class="btn btn-red">Contact</a>
   </div>
 
-  <!-- Optional Welcome Animation -->
-  <p id="welcome" style="margin-top:40px; font-style:italic; color:#777;">Welcome to my portfolio!</p>
+  <p id="welcome-text" style="margin-top:50px; font-style:italic; color:#999;">Welcome to my pro portfolio!</p>
 </div>
 
+<style>
+.btn {
+  padding:14px 30px;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  margin:7px;
+  font-weight:bold;
+  box-shadow:0 4px 15px rgba(0,0,0,0.3);
+  transition:0.3s;
+}
+.btn-green{background:#1abc9c;}
+.btn-green:hover{background:#16a085; transform: scale(1.05);}
+.btn-blue{background:#3498db;}
+.btn-blue:hover{background:#2980b9; transform: scale(1.05);}
+.btn-red{background:#e74c3c;}
+.btn-red:hover{background:#c0392b; transform: scale(1.05);}
+</style>
+
 <script>
-  // Fade in welcome text
-  document.addEventListener("DOMContentLoaded", function() {
-    const el = document.getElementById('welcome');
-    el.style.opacity = 0;
-    let op = 0;
-    const fadeIn = setInterval(function() {
-      if(op >= 1){ clearInterval(fadeIn); }
-      el.style.opacity = op;
-      op += 0.02;
-    }, 20);
-  });
+document.addEventListener("DOMContentLoaded", function() {
+  const el = document.getElementById('welcome-text');
+  el.style.opacity = 0;
+  let op = 0;
+  const fadeIn = setInterval(function() {
+    if(op>=1){ clearInterval(fadeIn); }
+    el.style.opacity = op;
+    op += 0.02;
+  }, 20);
+});
 </script>
