@@ -49,10 +49,6 @@ body {
   animation: fadeIn 0.4s ease-in-out;
 }
 
-.active {
-  display: block;
-}
-
 /* Inner Card */
 .inner-card {
   background: #0f1735;
@@ -146,10 +142,11 @@ h1, h2, h3 {
     </div>
   </div>
 
-  <!-- Semester 1 -->
+  <!-- 1st Semester -->
   <div id="a2" class="article-box">
-    <h3>🎓 1st Semester</h3>
+    <h2>🎓 1st Semester</h2>
 
+    <!-- Article 2 -->
     <div class="inner-card">
       <h4>📄 2nd Article</h4>
       <h5>My First Days at University: Challenges, Discovery, and Growth</h5>
@@ -171,9 +168,73 @@ h1, h2, h3 {
       By the end of the first week, I realized that each difficulty — from finding classrooms to managing daily routines — was strengthening my adaptability and independence. These experiences taught me patience, persistence, and responsibility. Looking back, those early days of uncertainty shaped my resilience, preparing me for future academic and personal growth at university.
       </p>
     </div>
+
+    <!-- Article 3 -->
+    <div class="inner-card">
+      <h4>📄 3rd Article</h4>
+      <h5>Orientation Week Experiences: Adapting to New Challenges</h5>
+
+      <h5>1. Hostel Life Challenges</h5>
+      <p>
+      The first week in the hostel tested my patience and adaptability. Strict routines, initiation activities, and cultural expectations created stress, but I learned to cope with rules and limits. Adapting to shared living spaces required tolerance, cooperation, and patience, teaching me life skills beyond academics.
+      </p>
+
+      <h5>2. Exploring the Campus</h5>
+      <p>
+      Orientation included exploring classrooms, labs, libraries, and common areas. Walking through the campus and understanding its layout helped me feel comfortable and confident navigating independently. These experiences emphasized self-reliance, awareness, and observation.
+      </p>
+
+      <h5>3. Building Connections</h5>
+      <p>
+      Interactions with seniors, teachers, and fellow students created guidance opportunities. I learned how to approach seniors respectfully, ask for advice, and collaborate with peers. Forming these early social bonds provided emotional stability and eased adaptation to university life, emphasizing the importance of teamwork and networking.
+      </p>
+    </div>
+
+    <!-- Article 4 -->
+    <div class="inner-card">
+      <h4>📄 4th Article</h4>
+      <h5>First Weeks of Classes: Routine, Challenges, and Social Growth</h5>
+
+      <h5>1. Academic Adjustments</h5>
+      <p>
+      Classes began, introducing textbooks, lectures, and assignments. The new learning style required focus, critical thinking, and discipline. I gradually adapted to balancing multiple subjects, understanding course expectations, and completing lab work efficiently.
+      </p>
+
+      <h5>2. Travel and Routine</h5>
+      <p>
+      Daily commuting between the hostel and campus taught me time management and resilience. Early mornings, strict schedules, and managing meals alongside classes required careful planning. These routines developed endurance, responsibility, and adaptability in a structured academic environment.
+      </p>
+
+      <h5>3. Friendships and Social Life</h5>
+      <p>
+      Beyond academics, social connections flourished. Friends provided emotional support, study collaboration, and shared leisure moments. Participating in group activities, campus visits, and casual gatherings enhanced my university experience, helping me feel part of the community while maintaining a balanced life.
+      </p>
+    </div>
+
+    <!-- Article 5 -->
+    <div class="inner-card">
+      <h4>📄 5th Article</h4>
+      <h5>Third Week Experiences: Growth Through Senior Interactions and Studies</h5>
+
+      <h5>1. Senior Interactions</h5>
+      <p>
+      During the third week, interactions with seniors became more structured. Some activities were stressful, requiring careful navigation of rules and expectations. While challenging, these interactions taught respect, observation, and decision-making under pressure.
+      </p>
+
+      <h5>2. Classroom and Studies</h5>
+      <p>
+      Regular lectures, assignments, and lab work increased in intensity. Focus and discipline became essential for keeping up with academic requirements. I learned how to prioritize tasks, manage study hours, and adjust to evolving schedules.
+      </p>
+
+      <h5>3. Social Growth</h5>
+      <p>
+      Despite challenges, friendships strengthened and new social bonds formed. Group studies, collaborative projects, and informal interactions provided support, motivation, and companionship. By the end of the third week, I felt fully integrated into both the academic and social life of the university.
+      </p>
+    </div>
+
   </div>
 
-  <!-- Semester 2 -->
+  <!-- 2nd Semester -->
   <div id="a3" class="article-box">
     <h3>💡 2nd Semester</h3>
     <p>Add your semester content here.</p>
