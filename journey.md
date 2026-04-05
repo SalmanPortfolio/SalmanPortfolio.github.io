@@ -124,29 +124,27 @@ h1, h2, h3 {
 
         <h5>1. Searching for Direction in Pre-Medical Studies</h5>
         <p>
-        My academic journey began with F.Sc Pre-Medical, a decision shaped more by expectation than personal understanding...
-        </p>
+        My academic journey began with F.Sc Pre-Medical, a decision shaped more by expectation than personal understanding. Like many students, I selected this field without fully exploring my interests or long-term goals. At the time, it seemed like a safe and respected academic path, but as my studies progressed, I realized something was missing. Although I worked hard and remained dedicated to my coursework, I struggled to feel genuinely connected to the subjects.
 
-        <p>
-        The learning process felt repetitive and heavily focused on memorization rather than creativity...
+The learning process felt repetitive and heavily focused on memorization rather than creativity or logical exploration. I often found myself questioning whether I truly belonged in this field. While my classmates appeared confident about becoming doctors or pursuing medical careers, I felt uncertain about my own future. Those two years became a period of self-reflection, where I slowly recognized that success is not only about effort but also about alignment between passion and purpose. This realization planted the first seeds of change, even though I did not yet know where my path would lead.
         </p>
 
         <h5>2. The Turning Point: Challenges, Risks, and Persistence</h5>
         <p>
-        A major turning point came when a friend encouraged me to attempt the ECAT entry test...
-        </p>
+     A major turning point came when a friend encouraged me to attempt the ECAT entry test. Initially, I treated it as an experiment rather than a serious career decision. Without preparation, I appeared for the exam simply to understand its structure and difficulty. My performance was not strong, but the experience introduced me to analytical thinking and problem-solving — skills that immediately captured my interest.
 
-        <p>
-        Choosing to apply became one of the most difficult decisions of my journey...
+Curious about this new direction, I attempted ECAT again with greater seriousness. Despite improved effort, my score remained lower than expected, which deeply affected my confidence. I began to doubt my abilities and decided not to apply for admission, believing that my chances were limited. However, life presented an unexpected opportunity when admissions reopened, offering students a second chance.
+
+Choosing to apply became one of the most difficult decisions of my journey. The process itself was filled with obstacles: technical issues, slow websites, network failures, and increasing deadline pressure. At the same time, emotional stress at home due to my results made the situation even more challenging. Yet, instead of giving up, I continued working persistently. Late nights and repeated attempts tested my patience, but they also strengthened my determination. That phase taught me an important lesson — resilience is built during moments when quitting feels easier than continuing.
         </p>
 
         <h5>3. Discovering Purpose Through Computer Engineering</h5>
         <p>
-        My persistence was finally rewarded when I secured admission to UET Faisalabad in Computer Engineering...
-        </p>
+       My persistence was finally rewarded when I secured admission to UET Faisalabad in Computer Engineering. This achievement marked more than academic success; it symbolized clarity after years of uncertainty. For the first time, I felt excited about learning. Subjects involving technology, logic, and innovation aligned naturally with my interests and abilities.
 
-        <p>
-        Looking back, I realize that my journey was not defined by perfect decisions but by continuous learning...
+As I progressed in my studies, I began to see education differently. Computer Engineering allowed me to think creatively while solving real-world problems, combining technical knowledge with analytical reasoning. The field challenged me to grow intellectually and personally, transforming my earlier doubts into confidence.
+
+Looking back, I realize that my journey was not defined by perfect decisions but by continuous learning and adaptation. Moving from pre-medical confusion to engineering clarity taught me that failure and uncertainty are not obstacles but essential steps toward growth. Today, I carry forward the lessons of perseverance, self-belief, and courage to take risks. My journey reminds me that sometimes the path we never planned becomes the one that leads us exactly where we are meant to be.
         </p>
 
       </div>
