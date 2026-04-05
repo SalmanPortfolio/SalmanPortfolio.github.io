@@ -3,15 +3,14 @@ layout: default
 title: "Home"
 ---
 
-{% if site.show_excerpts %}
-  {% for post in site.posts %}
-    <article>
-      {% include meta.html post=post %}
-      {{ post.excerpt }}
-      <footer class="button"><a href="{{ post.url | relative_url }}">read more</a></footer>
-    </article>
-  {% endfor %}
-{% else %}
-  {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
-  {{ source | split: "---" | last }}
-{% endif %}
+<h1>👋 Hi, I'm Salman Zahoor</h1>
+
+<p>🎓 Computer Engineering Student</p>
+<p>🚀 Welcome to my portfolio website</p>
+
+<h2>Explore</h2>
+<ul>
+  <li><a href="/about/">About Me</a></li>
+  <li><a href="/journey/">My Journey</a></li>
+  <li><a href="/contact/">Contact</a></li>
+</ul>
