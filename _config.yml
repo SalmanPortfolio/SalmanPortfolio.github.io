@@ -1,10 +1,9 @@
 title: "Salman Zahoor Portfolio"
-description: "Computer Engineering Student | Portfolio"
+description: "Computer Engineering Student | Pro Portfolio"
 url: "https://salmanportfolio.github.io"
 baseurl: ""
 
-# We are using forked Contrast theme locally
-theme: null
+theme: null  # Use your forked Contrast theme locally
 
 plugins:
   - jekyll-feed
@@ -15,3 +14,6 @@ plugins:
 markdown: kramdown
 permalink: /:title/
 show_excerpts: true
+
+# Dark theme specific
+dark_mode: true
