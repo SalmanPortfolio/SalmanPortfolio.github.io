@@ -1,23 +1,17 @@
-# Site settings
 title: "Salman Zahoor Portfolio"
-description: "Computer Engineering Student | Portfolio Website"
+description: "Computer Engineering Student | Portfolio"
 url: "https://salmanportfolio.github.io"
-baseurl: "" # leave empty because your site is at root
+baseurl: ""
 
-# Theme settings
-theme: null # Do NOT use a remote_theme, we are using forked theme files
+# We are using forked Contrast theme locally
+theme: null
 
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-remote-theme
   - jekyll-paginate
 
-# Build settings
 markdown: kramdown
 permalink: /:title/
-
-# Optional: Excerpts for posts
 show_excerpts: true
