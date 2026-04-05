@@ -31,7 +31,7 @@ I am **Salman Zahoor**, son of **Zahoor Ahmad**, Computer Engineering student.
 
 <script>
 function toggle(id){
-  var x = document.getElementById(id);
-  x.style.display = x.style.display === "none" ? "block" : "none";
+  var x=document.getElementById(id);
+  x.style.display = x.style.display==="none" ? "block" : "none";
 }
 </script>
