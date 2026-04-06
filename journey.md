@@ -125,7 +125,7 @@ h1, h2, h3 {
 
   <!-- 2nd Semester -->
   <div id="sem2" class="article-box">
-    <p>Content for 2nd semester will go here.</p>
+    {% include 10th_article.html %}
   </div>
 
 </div>
