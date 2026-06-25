@@ -1,4 +1,4 @@
-# 🎯 Purpose of My Portfolio
+ 🎯 Purpose of My Portfolio
 
 The primary purpose of this portfolio is to present a comprehensive overview of my academic journey, technical skills, and practical experience as a Computer Engineering student. In today’s competitive digital world, having a well-structured portfolio is essential for showcasing one’s abilities beyond traditional resumes. This platform serves as a digital identity where I can demonstrate my knowledge, creativity, and dedication to continuous learning in the field of software development and emerging technologies.
 
