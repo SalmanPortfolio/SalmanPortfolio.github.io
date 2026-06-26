@@ -1,35 +1,207 @@
-My Digital Footprint as a Computer Engineering Student
-Every journey leaves a mark. Some marks fade with time, while others persist, grow, and eventually become something you can look back on with pride. As a student of Computer Engineering, I have started building something that I hope will stand the test of time — a personal portfolio blog hosted on GitHub. This is not just a class assignment or a box to check on a to-do list. It is the beginning of my digital identity, a space where my learning, my struggles, my breakthroughs, and my growth as an engineer will be recorded for the world to see.
-The idea for this portfolio came from my professor, Dr. Bilal Ahmad, who teaches at UET Lahore, Faisalabad Campus. In one of our sessions, he encouraged us to establish an online presence as early as possible in our academic careers. He told us that in today's world, your digital footprint matters just as much as your grades. Employers, collaborators, and researchers look you up online before they ever meet you in person. If there is nothing to find, you are essentially invisible. That simple piece of advice set me on this path, and I have not looked back since.
+<div class="inner-card">
+    <h4>📄 Digital Footprint Article</h4>
+    <h5>My Digital Footprint as a Computer Engineering Student</h5>
 
-What This Portfolio Is About
-This portfolio blog is my personal corner of the internet — a place where I document my experiences as a Computer Engineering student. The core purpose is straightforward: to leave a digital footprint that reflects who I am, what I am learning, and where I am headed. Every post I write here is a snapshot of a moment in my academic life, whether it is a concept I finally understood after struggling with it for days, a project I completed, an exam week that tested my limits, or a lesson I learned the hard way.
-The portfolio is built on GitHub Pages, which makes it accessible, free to host, and tied directly to the platform that the entire software development world uses. This choice was intentional. GitHub is not just a place to store code — it is a professional portfolio platform in itself. By hosting my blog there, I am already speaking the language of the industry before I even graduate.
+    <button class="read-btn" onclick="toggleArticle('digitalFootprint')">
+        Read More
+    </button>
 
-About Dr. Bilal Ahmad — The Professor Who Pushed Us to Think Differently
-No discussion of this portfolio would be complete without talking about the person who inspired it. Dr. Bilal Ahmad is a faculty member at UET Lahore, Faisalabad Campus, and one of those rare educators who teaches you far beyond the syllabus. He is an expert in Artificial Intelligence, Machine Learning, and Deep Learning, with a particular focus on training ML models that solve real-world problems of genuine value.
-What makes Dr. Bilal Ahmad stand out is his philosophy around data. He consistently pushes his students to work with datasets that have practical significance — especially medical datasets, because they are collected with exceptionally high precision and accuracy. When a model is trained on reliable, meaningful data, its results carry weight. That mindset — prioritize quality, prioritize impact — has shaped how I think about everything in this field.
-During this semester, Dr. Bilal Ahmad taught us two core courses: Programming Fundamentals and Database Systems. Both of these are foundational pillars of Computer Engineering, and his approach to teaching them was deeply practical. He did not just walk us through theory — he connected every concept to something tangible, something we could build or apply. You can explore his academic research and published work on his Google Scholar profile, where his contributions to AI and ML are well documented.
+    <div id="digitalFootprint" style="display:none; margin-top:15px;">
 
-Programming Fundamentals — Building the Mindset Before the Code
-Programming Fundamentals was the course where many of us truly began to think like engineers. It is one thing to learn syntax, but it is another thing entirely to learn how to break a problem down, approach it logically, and write code that actually solves it cleanly. Dr. Bilal Ahmad made sure we understood the difference.
-We covered the core building blocks — variables, loops, conditionals, functions, and the logic that binds them together. But more importantly, we were pushed to practice, to make mistakes, and to understand why those mistakes happened. That process of trial and error, guided by structured feedback, is something no textbook can replicate. Programming is a craft, and like any craft, it demands repetition and reflection.
-This portfolio is, in many ways, a product of that course. The very fact that I can set up a GitHub Pages site, structure content, and think about how it will be read by humans and indexed by search engines comes from the foundational thinking that Programming Fundamentals introduced.
+        <h3>🌐 My Digital Footprint as a Computer Engineering Student</h3>
 
-Database Systems — Understanding How the World Stores Its Knowledge
-The second course Dr. Bilal Ahmad taught us this semester was Database Systems. If Programming Fundamentals taught us to think, Database Systems taught us to organize. The world runs on data — every application, every platform, every service you use is backed by a database of some kind. Understanding how to design, query, and manage that data is not optional for a Computer Engineering student. It is essential.
-We worked with relational databases, learned SQL, understood normalization, and began to appreciate why structure matters so much when dealing with large volumes of information. Dr. Bilal Ahmad connected this to his broader research interests as well — when you are training machine learning models on medical datasets, for instance, how that data is stored, cleaned, and retrieved is just as important as the algorithm you choose. The database is the foundation. If it is poorly designed, everything built on top of it will eventually crack. You can follow his research journey and latest work through his LinkedIn to stay updated on how these concepts apply in real-world AI systems.
+        <p>
+            Every journey leaves a mark. Some marks fade with time, while others persist, grow, and eventually become something you can look back on with pride.
+            As a student of <strong>Computer Engineering</strong>, I have started building something that I hope will stand the test of time—a personal
+            portfolio blog hosted on
+            <a href="https://github.com/" target="_blank"><strong>GitHub Pages</strong></a>.
+            This is not just a class assignment but the beginning of my digital identity where my learning, projects,
+            struggles, and achievements will remain accessible to everyone.
+        </p>
 
-Why This Portfolio Matters — The Benefits Are Real
-The benefits of maintaining a public portfolio blog as a student are both immediate and long-term, and they compound over time. Let me walk through what I have already begun to experience and what I anticipate as this portfolio grows.
-Visibility and credibility are the most obvious benefits. In a competitive field like Computer Engineering, standing out requires more than a degree. When a potential employer or collaborator searches your name, finding a well-maintained portfolio of your learning journey signals seriousness, consistency, and self-motivation. It shows that you do not just learn inside the classroom — you reflect, document, and share.
-Reinforcement of learning is something I did not expect to appreciate as much as I do. Writing about a concept forces you to understand it more deeply. You cannot write a coherent paragraph about Database normalization if you only half-understood it in class. The act of writing makes the gaps in your knowledge visible, and filling those gaps becomes the work.
-Building a professional network is another advantage that plays out over time. As this blog grows and gets indexed by search engines, it becomes a point of connection. People in the field — students, professionals, researchers — may stumble upon a post, find it useful, and reach out. That is how networks are built organically, not through cold messages but through demonstrated value. Professors like Dr. Bilal Ahmad model exactly this — his online presence across academic and professional platforms makes his work discoverable and impactful far beyond the classroom.
-A record of growth is perhaps the most personally meaningful benefit. Right now, I am a student learning the basics. In five years, I will be a professional with skills and experience. This blog will be a time capsule of where I started — and that perspective is invaluable, both for me personally and for anyone who might one day look to my journey for inspiration.
+        <p>
+            The idea for this portfolio came from
+            <strong>Dr. Bilal Ahmad</strong>, Assistant Professor at
+            <strong>UET Lahore, Faisalabad Campus</strong>.
+            He encouraged us to establish our online presence as early as possible because in today's professional world,
+            your digital footprint matters just as much as your academic record.
+        </p>
 
-Starting Early, Learning Always
-Dr. Bilal Ahmad's advice to leave a digital footprint early was not just practical guidance — it was a mindset shift. He reminded us that our education does not happen only in lecture halls. It happens in the projects we take on, the mistakes we make, the curiosity we follow, and the record we keep of all of it. His own academic contributions, visible through his Google Scholar profile, are a testament to what consistent, purposeful documentation of knowledge looks like over a career.
-This portfolio is my record. It will evolve with every semester, every course, every late night spent debugging code or designing database schemas. It is not perfect, and it is not meant to be. It is meant to be honest, consistent, and mine.
-If you are a fellow student reading this, I encourage you to start your own. The best time to plant a tree was twenty years ago. The second best time is now.
-#MLwithDrBilalAhmad #DrBilalAhmad #MLProject
+        <hr>
 
+        <h3>💻 What This Portfolio Is About</h3>
+
+        <p>
+            This portfolio is my personal corner of the internet where I document my journey as a Computer Engineering student.
+            Every article represents a milestone—from learning new programming concepts and database techniques
+            to completing projects and overcoming academic challenges.
+        </p>
+
+        <p>
+            The website is built using
+            <a href="https://pages.github.com/" target="_blank"><strong>GitHub Pages</strong></a>,
+            allowing me to host my portfolio for free while keeping it connected to the platform used by software developers worldwide.
+            GitHub is far more than a code repository—it serves as a professional portfolio that demonstrates practical skills,
+            collaboration, and continuous learning.
+        </p>
+
+        <hr>
+
+        <h3>👨‍🏫 About Dr. Bilal Ahmad</h3>
+
+        <p>
+            Dr. Bilal Ahmad is one of the professors who has greatly influenced my academic journey.
+            His expertise lies in
+            <strong>Artificial Intelligence</strong>,
+            <strong>Machine Learning</strong>, and
+            <strong>Deep Learning</strong>,
+            particularly in developing intelligent systems that solve real-world problems.
+        </p>
+
+        <p>
+            He consistently encourages students to work with high-quality datasets,
+            especially medical datasets, where precision and reliability are essential.
+            His philosophy is simple:
+            <em>quality data produces meaningful results.</em>
+        </p>
+
+        <p>
+            During this semester he taught us
+            <strong>Programming Fundamentals</strong>
+            and
+            <strong>Database Systems</strong>,
+            connecting theoretical concepts with practical applications.
+        </p>
+
+        <p>
+            🔗 Google Scholar:
+            <a href="#" target="_blank">
+                https://scholar.google.com/
+            </a>
+        </p>
+
+        <p>
+            🔗 LinkedIn:
+            <a href="#" target="_blank">
+                https://linkedin.com/
+            </a>
+        </p>
+
+        <hr>
+
+        <h3>💡 Programming Fundamentals — Building the Mindset Before the Code</h3>
+
+        <p>
+            Programming Fundamentals was much more than learning syntax.
+            It taught us how to think logically, analyze problems,
+            and develop efficient solutions.
+        </p>
+
+        <p>
+            We explored variables, loops, functions, conditionals,
+            debugging techniques, and problem-solving strategies.
+            Through continuous practice and constructive feedback,
+            we learned that programming is a skill developed through persistence rather than memorization.
+        </p>
+
+        <p>
+            This portfolio itself is a direct outcome of that learning.
+            Creating and maintaining a GitHub Pages website demonstrates
+            how programming knowledge extends beyond writing code into building professional digital identities.
+        </p>
+
+        <hr>
+
+        <h3>🗄️ Database Systems — Understanding How the World Stores Information</h3>
+
+        <p>
+            Database Systems introduced us to the principles of organizing,
+            storing, and retrieving information efficiently.
+            We studied relational databases,
+            SQL,
+            normalization,
+            ER diagrams,
+            and database design.
+        </p>
+
+        <p>
+            Dr. Bilal Ahmad emphasized that machine learning models are only as effective as the quality of the data they use.
+            Proper database design ensures accuracy, consistency, and scalability,
+            making it a crucial foundation for intelligent systems.
+        </p>
+
+        <hr>
+
+        <h3>⭐ Why This Portfolio Matters</h3>
+
+        <h4>1️⃣ Building Professional Visibility</h4>
+
+        <p>
+            Having an online portfolio allows employers,
+            researchers,
+            and collaborators to discover my work before meeting me.
+            It demonstrates commitment, consistency, and passion for technology.
+        </p>
+
+        <h4>2️⃣ Reinforcing Learning</h4>
+
+        <p>
+            Writing articles forces me to understand concepts deeply.
+            Explaining programming or database topics in my own words highlights gaps in my knowledge and motivates continuous improvement.
+        </p>
+
+        <h4>3️⃣ Growing a Professional Network</h4>
+
+        <p>
+            As search engines index this website,
+            students and professionals can discover my work.
+            Valuable content naturally creates opportunities for collaboration and networking.
+        </p>
+
+        <h4>4️⃣ Recording My Growth</h4>
+
+        <p>
+            This portfolio serves as a timeline of my development.
+            Years from now I will be able to revisit these articles and see how far I have progressed as an engineer.
+        </p>
+
+        <hr>
+
+        <h3>🚀 Starting Early, Learning Always</h3>
+
+        <p>
+            Dr. Bilal Ahmad's advice to build a digital footprint early transformed my perspective.
+            Education is not limited to classrooms.
+            It continues through projects,
+            experimentation,
+            documentation,
+            and sharing knowledge with others.
+        </p>
+
+        <p>
+            This portfolio represents my journey.
+            It will continue to evolve with every semester,
+            every course,
+            every project,
+            and every lesson learned.
+        </p>
+
+        <p>
+            If you are a fellow student reading this,
+            I encourage you to begin building your own digital footprint today.
+            The best time to start was years ago.
+            The second-best time is now.
+        </p>
+
+        <hr>
+
+        <p>
+            <strong>
+                #MLwithDrBilalAhmad
+                #DrBilalAhmad
+                #MLProject
+            </strong>
+        </p>
+
+    </div>
+</div>
