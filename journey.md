@@ -100,7 +100,7 @@ h1, h2, h3 {
 
   <!-- Folders -->
   <div class="folders">
-    <button class="folder-btn" onclick="openArticle('admission')">📁 Admission</button>
+    <button class="folder-btn" onclick="openArticle('admission')">📁 Hostel Life</button>
     <button class="folder-btn" onclick="openArticle('sem1')">📁 1st Semester</button>
     <button class="folder-btn" onclick="openArticle('sem2')">📁 2nd Semester</button>
   </div>
